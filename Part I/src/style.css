@@ -1,0 +1,46 @@
+
+body {
+    background-image: url('images/background-image.png');
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+p.scenedesc {
+    font-style: italic;
+    text-align: center;
+}
+
+p.letter {
+    font-family: cursive;
+    font-size: 125%;
+}
+
+p.poem {
+    font-family: cursive;
+    font-size: 125%;
+}
+
+pre {
+    font-family: sans-serif;
+}
+
+img {
+    filter: sepia(50%);
+}
+
+.mynote {
+    background-color: transparent;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}

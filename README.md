@@ -1,16 +1,12 @@
 Assignment: CSS Hell
 ====================
 
-You will skin 3 project gutenberg stories with custom CSS.
+## Author:  
+Kyle Bricker
 
-You will skin 2 versions of a possible professional homepage for your
-self with 2 versions of CSS.
-
-Read requirements.org
-
-Read this comic http://theoatmeal.com/comics/design_hell
-
-git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
+## References:
+Background image for part 1:  
+https://www.textures4photoshop.com/tex/paper/seamless-texture-rough-paper-free.aspx
 
 License/Copyright
 =================
