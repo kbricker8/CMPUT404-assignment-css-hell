@@ -1,0 +1,103 @@
+
+body {
+    background-image: url('images/background-image.png');
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #2E0519;
+}
+
+p {
+    font-family: sans-serif;
+    color: black
+}
+
+p.scenedesc {
+    font-style: italic;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #2E0519
+}
+
+p.letter {
+    text-indent: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: cursive;
+    font-size: 125%;
+    color: #14053C
+}
+
+p.poem {
+    text-indent: 0%;
+    margin-left: 10%;
+    font-size: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: cursive;
+    font-size: 120%;
+    color: #14053C;
+}
+
+p.center  {
+    text-align: center;
+    text-indent: 0em;
+    margin-top: 1em;
+    margin-bottom: 1em; 
+}
+
+p.right {
+    text-align: right;
+    color: #2E0519
+}
+
+a:link {
+    color:mediumblue;
+    text-decoration:none
+}
+a:visited {
+    color:indigo;
+    text-decoration:none
+}
+a:hover {
+    color:maroon
+}
+
+pre {
+    font-family: sans-serif;
+    color: #2E0519
+}
+
+div.fig { 
+    display:block;
+    margin:0 auto;
+    text-align:center; 
+}
+
+figcaption {
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+img {
+    filter: sepia(50%);
+    width: 100%;
+}
+
+.mynote {
+    background-color: transparent;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
