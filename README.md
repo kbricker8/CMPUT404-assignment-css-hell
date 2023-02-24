@@ -16,17 +16,17 @@ Part 1
   insert on line 30:  
   < link rel="stylesheet" type="text/css" href="style.css">
 - Romeo-and-Juliet.html:
-  insert on line 54:
+  insert on line 54:  
   < link rel="stylesheet" type="text/css" href="style.css">  
 
 ### Images:
 
 Alice in Wonderland:
-![](/Part-I/Alice-in-Wonderland.png)
+![](gutenberg1.png)
 Moby Dick:
-![](/Part-I/Moby-Dick.png)
+![](gutenberg2.png)
 Romeo and Juliet:
-![](/Part-I/Romeo-and-Juliet.png)
+![](gutenberg3.png)
 
 Part 2
 ======
