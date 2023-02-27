@@ -6,18 +6,16 @@ html, body {
 body {
     text-align: justify;
     font-family: sans-serif;
-    background-color: #181c20;
+    background-color: black;
 }
 
 .banner {
-    color: #C1CCD9;
     font-size: 30px;
     text-align: center;
+    color: limegreen;
 
-    background-color: #373f519c;
-    border-radius: 30px;
-    border: 2px solid;
-
+    border: 5px dashed chartreuse;
+    border-radius: 20%;
     top: 25px;
     left: 50vw;
     width: 800px;
@@ -27,16 +25,10 @@ body {
     transform: translate(-50%, 0);
 }
 
-.banner h2 {
-    color: #81B0C0;
-}
-
 .bannerimg {
-    filter: blur(4px);
-    object-fit: cover;
     width: 100vw;
     height: 300px;
-    box-shadow: 0 5px 10px 0 black;
+    filter: hue-rotate(90deg);
 }
 
 .vwrapper {
@@ -45,10 +37,7 @@ body {
     left: 50%;
     max-width: 1000px;
     display: flex;
-    /* background-color: #062f4f7c; */
-    background-color: #292D38;
-    color: #D8DBE2;
-    box-shadow: 0 5px 10px 0 black;
+    border: 2px ridge firebrick;
 
     transform: translate(-50%, 0);
 }
@@ -63,11 +52,11 @@ body {
 .headshot {
     z-index: 10;
     position: relative;
-    filter: grayscale(50%);
+    filter: hue-rotate(90deg);
     float: inline-end;
     margin: 10px;
     width: 150px;
-    border-radius: 20%;
+    border-radius: 100%;
     transition: all 0.5s;
     object-fit: cover;
 }
@@ -84,7 +73,7 @@ body {
     text-align: center;
     width: 200px;
     margin: 5px;
-    background-color: #373F51;
+    background-color: purple;
 }
 
 .skills h3 {
@@ -98,6 +87,18 @@ body {
     margin-bottom: 20px;
 }
 
+#mainText {
+    color: red
+}
+
+#mainText h2 {
+    color: green
+}
+
+#mainText h3 {
+    color: purple;
+}
+
 .footer {
     z-index: 10;
     position: relative;
@@ -106,10 +107,6 @@ body {
     left: 50%;
     max-width: 1000px;
     transform: translate(-50%, 0);
-    box-shadow: 0 5px 10px 0 black;
-
-    background-color: #22242B;
-    color: #D8DBE2;
     text-align: center;
 }
 
@@ -119,16 +116,13 @@ body {
     overflow: auto;
     display: flex;
     left: 50%;
-    max-width: 1000px;
     transform: translate(-50%, 0);
-    justify-content: center;
     /* background-color: #02121f7c; */
-    background-color: #22242B;
-    box-shadow: 0 0 10px 0px black;
+    background-color: gold;
 }
 
 .navbar a {
-    color: #D8DBE2;
+    color: green;
     padding: 14px 16px;
     font-size: 17px;
     text-decoration:none;
@@ -140,11 +134,9 @@ body {
 }
 
 .navbar a.active {
-    background-color: #58A4B0;
+    background-color: black;
 }
 
 .navbar p.contactInfo {
-    color: #D8DBE2;
-    float: right;
-    padding-left: 10%;
+    color: green;
 }
