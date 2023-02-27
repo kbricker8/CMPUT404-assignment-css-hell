@@ -32,7 +32,7 @@ Part 2
 ======
 Good Page:
 ![](good.png)
-Bad Page:
+Ugly Page:
 ![](bad.png)
 
 References:
