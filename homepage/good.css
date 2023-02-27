@@ -1,0 +1,150 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    text-align: justify;
+    font-family: sans-serif;
+    background-color: #181c20;
+}
+
+.banner {
+    color: #C1CCD9;
+    font-size: 30px;
+    text-align: center;
+
+    background-color: #373f519c;
+    border-radius: 30px;
+    border: 2px solid;
+
+    top: 25px;
+    left: 50vw;
+    width: 800px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%, 0);
+}
+
+.banner h2 {
+    color: #81B0C0;
+}
+
+.bannerimg {
+    filter: blur(4px);
+    object-fit: cover;
+    width: 100vw;
+    height: 300px;
+    box-shadow: 0 5px 10px 0 black;
+}
+
+.vwrapper {
+    z-index: 2;
+    position: relative;
+    left: 50%;
+    max-width: 1000px;
+    display: flex;
+    /* background-color: #062f4f7c; */
+    background-color: #292D38;
+    color: #D8DBE2;
+    box-shadow: 0 5px 10px 0 black;
+
+    transform: translate(-50%, 0);
+}
+
+.vwrapper #mainText {
+    width: 100%; 
+    height: 100%;
+    float: left;
+    margin: 5px;
+}
+
+.headshot {
+    z-index: 10;
+    position: relative;
+    filter: grayscale(50%);
+    float: inline-end;
+    margin: 10px;
+    width: 150px;
+    border-radius: 20%;
+    transition: all 0.5s;
+    object-fit: cover;
+}
+
+.headshot:hover {
+    transform: scale(1.2);
+}
+
+.skills {
+    position: relative;
+    right: 0;
+
+    height: fit-content;
+    text-align: center;
+    width: 200px;
+    margin: 5px;
+    background-color: #373F51;
+}
+
+.skills h3 {
+    margin: 5px;
+}
+
+.skills p {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    z-index: 10;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    left: 50%;
+    max-width: 1000px;
+    transform: translate(-50%, 0);
+    box-shadow: 0 5px 10px 0 black;
+
+    background-color: #22242B;
+    color: #D8DBE2;
+    text-align: center;
+}
+
+.navbar {
+    z-index: 1;
+    position: relative;
+    overflow: auto;
+    display: flex;
+    left: 50%;
+    max-width: 1000px;
+    transform: translate(-50%, 0);
+    justify-content: center;
+    /* background-color: #02121f7c; */
+    background-color: #22242B;
+    box-shadow: 0 0 10px 0px black;
+}
+
+.navbar a {
+    color: #D8DBE2;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration:none;
+}
+
+.navbar a:hover {
+    /* background-color: #01101b; */
+    background-color: #1B1B1E;
+}
+
+.navbar a.active {
+    background-color: #58A4B0;
+}
+
+.navbar p.contactInfo {
+    color: #D8DBE2;
+    float: right;
+    padding-left: 10%;
+}

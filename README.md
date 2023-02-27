@@ -30,11 +30,18 @@ Romeo and Juliet:
 
 Part 2
 ======
+Good Page:
+![](good.png)
+Bad Page:
+![](bad.png)
 
 References:
 ===========
 Background image for part 1:  
 https://www.textures4photoshop.com/tex/paper/seamless-texture-rough-paper-free.aspx
+
+Banner for part 2:
+https://www.pexels.com/photo/high-rise-buildings-during-night-time-photo-219692/
 
 License/Copyright
 =================
